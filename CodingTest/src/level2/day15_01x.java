@@ -19,7 +19,5 @@ public class day15_01x {
 
 	public static void main(String[] args) {
 		Solution21 a = new Solution21();
-
 	}
-
 }
