@@ -22,7 +22,7 @@ public class day19_01 {
 
 	public static void main(String[] args) {
 		Solution25 solution25 = new Solution25();
-		System.out.println(solution25.solution(12));// 6,9 에러
+		System.out.println(solution25.solution(12));
 	}
 
 }
