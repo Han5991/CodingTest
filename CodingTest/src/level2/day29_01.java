@@ -19,7 +19,7 @@ class Solution36 {
 			if (ck) {
 				answer++;
 			}
-		}
+		}   
 		return answer;
 	}
 }
