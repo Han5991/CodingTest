@@ -12,8 +12,8 @@ class Solution37 {
 		Arrays.sort(num, new Comparator<String>() {
 
 			@Override
-			public int compare(String o1, String o2) {
-				return (o1 + o2).compareTo((o2 + o1));
+			public int compare(String o1, String o2) {//양쪽을 빼서 음수가 나오면 오른쪽이 아래로 내려감
+				return (o1 + o2).compareTo(o2 + o1);
 			}
 		});
 		if (num[num.length - 1].equals("0")) {
