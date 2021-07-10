@@ -1,4 +1,4 @@
-package est;
+package ets;
 
 import java.util.Scanner;
 

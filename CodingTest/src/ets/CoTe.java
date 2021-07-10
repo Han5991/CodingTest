@@ -1,4 +1,4 @@
-package est;
+package ets;
 
 class Solution {
 	public int solution(String p, String s) {
