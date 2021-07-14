@@ -4,13 +4,12 @@ import java.util.HashSet;
 
 class Solution49 {
 	public int solution(int[] nums) {
-		int answer = 0;
 		HashSet<Integer> set = new HashSet<Integer>();
 		for (int a : nums) {
 			set.add(a);
 		}
-		answer = (nums.length / 2 < set.size()) ? nums.length / 2 : set.size();
-		return answer;
+		
+		return (nums.length / 2 < set.size()) ? nums.length / 2 : set.size();
 	}
 }
 
